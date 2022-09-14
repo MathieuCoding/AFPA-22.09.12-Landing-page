@@ -1,0 +1,114 @@
+body {
+    background-image: url("../images/background_img.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#title {
+    font-family: "Niconne", Arial, sans-serif;
+    margin: 0 auto 3% auto;
+    text-align: center;
+
+}
+
+#logo_principal img {
+    display: block;
+    margin: 0 auto;
+    max-width: 50%;
+}
+.input_box {
+    display: flex;
+    justify-content: center;
+    margin: 0 0 3% 0;
+}
+
+#email {
+    border-top-left-radius: 60px;
+    border-bottom-left-radius: 60px;
+    padding-left: 1%;
+    width: 30%;
+    box-shadow: 1px 1px 8px 1px #000000;
+}
+
+#button {
+    border-top-right-radius: 60px;
+    border-bottom-right-radius: 60px;
+    background-color: #127177;
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    padding: 1%;
+    width: 10%;
+    min-width: 62px;
+    box-shadow: 1px 1px 8px 1px #000000;
+}
+.color_icon{
+    color : rgba(255, 255, 255, 0.7);
+    display: flex;
+    justify-content: center;
+    margin: 15% auto;
+}
+
+p{
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+    font-family: "julee", arial, sans-serif;
+    display: flex;
+    align-content: space-around;
+    align-items: flex-end;}
+
+
+
+
+#boat, #team, #spot{
+    width : 25%;
+    height: 321px;
+    border: solid;
+    border-color: #127177;
+    border-radius: 20px;
+    background-color: #127177;
+    opacity: 70%; 
+}
+
+
+section{
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-around;
+
+}
+
+.textdiv{
+    margin : 0 auto;
+    text-align: center;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+}
+
+footer a {
+    margin: 1%;
+}
+
+@media (max-width: 760px) {
+    section {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #boat, #team, #spot{
+        width : 50%;
+        height: 300px;
+        margin: 2%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    .color_icon {
+        margin: 5% auto;
+    }
+}
